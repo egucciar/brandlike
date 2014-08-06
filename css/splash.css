@@ -37,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
     height:100%;
 }
 
-splash img {
+.splash img {
     width: 100%;
     height: auto;
     position: absolute;
