@@ -37,10 +37,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 }
 
 .phone {
-    height:500px;
+    height: 80%;
     width:auto;
     position: absolute;
-    top: calc(50% - 250px);
+    top: 50px;
     left: 50%;
       -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -53,7 +53,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
     width: 75%;
     height: auto;
     position: absolute;
-    top: calc(50% + 250px);
+    top: calc(80%);
     left: 50%;
       -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -65,4 +65,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 
 body.page {
     text-align: center;
+}
+
+.splash h1 {
+    width:100%;
+ color:white;
+ text-align:center; 
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ position:absolute
+}
+
+.phone:hover {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
