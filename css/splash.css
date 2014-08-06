@@ -1,0 +1,28 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    width:50%;
+    height:100%;
+    position:absolute;
+
+    background: #e100ff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #e100ff 0%, #6a0081 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e100ff), color-stop(100%,#6a0081)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #e100ff 0%,#6a0081 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #e100ff 0%,#6a0081 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #e100ff 0%,#6a0081 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #e100ff 0%,#6a0081 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e100ff', endColorstr='#6a0081',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.right {
+    position:absolute;
+    left:50%;
+    width:50%;
+    height:100%;
+    background: url("images/chalkboard.jpg");
+    background-size:cover;
+}
