@@ -1,6 +1,7 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 .bl-purple {
 background: #e100ff; /* Old browsers */
