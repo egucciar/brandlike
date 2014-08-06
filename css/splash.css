@@ -1,7 +1,6 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    text-align: center;
 }
 .bl-purple {
 background: #e100ff; /* Old browsers */
@@ -37,12 +36,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
     height:100%;
 }
 
-.splash img {
-    width: 100%;
-    height: auto;
+.phone {
+    height:500px;
+    width:auto;
     position: absolute;
-    top: 50%;
+    top: calc(50% - 250px);
+    left: 50%;
       -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+        -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.logo {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: calc(50% + 250px);
+    left: 50%;
+      -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+        -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+body.page {
+    text-align: center;
 }
